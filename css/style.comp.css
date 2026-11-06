@@ -1,0 +1,21 @@
+.container {
+  background-color: #eee;
+  width: 1000px;
+  margin: 30px auto;
+  display: grid;
+  grid-template-rows: 150px 150px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 30px;
+}
+
+.item {
+  padding: 20px;
+  font-size: 30px;
+  font-family: sans-serif;
+  color: white;
+}
+.item--1 {
+  background-color: red;
+  grid-row: 2/3;
+  grid-column: 2/3;
+}
